@@ -3,3 +3,15 @@ dist/
 *.db
 .DS_Store
 *.log
+
+# Sensitive - NEVER commit
+.env
+.env.*
+*.pem
+*.key
+*identity*.json
+.agentchat/
+.claude/
+credentials*
+*secret*
+
